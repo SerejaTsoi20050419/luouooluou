@@ -227,14 +227,14 @@
   .repair-icon {
     display: flex;
     justify-content:center ;
-    margin-left: 78%;
+    margin-left: 77%;
     margin-top: -40px;
   }
 
   .checkstatus-icon {
     display: flex;
     justify-content: center;
-    margin-left: 98%;
+    margin-left: 97%;
     margin-top: -42px;
   }
 
@@ -738,7 +738,7 @@ header {
 }
 
   /* Адаптация под мобильные */
-@media (min-width: 430px) and (max-width: 768px) {
+@media (min-width: 430px) {
   .layout {
   flex-direction: column;
 }
@@ -1354,7 +1354,7 @@ html, body {
 }
 
 .img-cps img {
-  margin-top: 90%;
+  margin-top: 150%;
   margin-left: -94%;
 }
 
@@ -1711,8 +1711,8 @@ html, body {
 }
 }
 
-@media (min-width: 768px) and (max-width: 768px) {
-   .layout {
+@media (max-width: 768px) {
+  .layout {
   flex-direction: column;
 }
 
@@ -1910,8 +1910,8 @@ html, body {
 }
 
 .knopka-note {
-  margin-left: 48%;
-  margin-top: 17px;
+  margin-left: 35%;
+  margin-top: 10%;
 }
   
 .header-left,
@@ -1932,7 +1932,7 @@ html, body {
 
 .swiper-conta {
   display: flex;
-  margin-top: 48%;
+  margin-top: 80%;
   margin-left: 1%;
   width: 330px;
   height: 290px;
@@ -1944,8 +1944,8 @@ html, body {
 
 .swiper-paginationiio {
   display: flex;
-  margin-left:43%;
-  margin-top: -25%;
+  margin-left:40%;
+  margin-top: -55%;
 }
 
 .burger-img {
@@ -2189,7 +2189,7 @@ html, body {
 .liniya-2 {
   width: 200%;
   margin-left: -20%;
-  margin-top: -8%;
+  margin-top: -16%;
 }
 
 .header-bv-repair {
@@ -2202,9 +2202,9 @@ html, body {
 
 .swiper-containerse {
   display: flex;
-  width: 50%;
+  width: 80%;
   height: 200px;
-  margin-top: 50%;
+  margin-top: 85%;
   margin-left: 1%;
 }
 
@@ -2260,13 +2260,13 @@ html, body {
 .liniya-3 {
   width: 200%;
   margin-left: -20%;
-  margin-top: -20%;
+  margin-top: -40%;
 }
 
 .swiper-paginationser {
   display: flex;
   margin-bottom: 20%;
-  margin-left: -10%;
+  margin-left: -50%;
 }
 
 .header-bv-checkstatus {
@@ -2299,12 +2299,11 @@ html, body {
 .service-text {
   margin-top: 10%;
   margin-left: -2%;
-  width: 240%;
+  width: 200%;
 }
 
 .header-bv {
   display: flex;
-  margin-left: 80%;
 }
 
 .header-bv-repair {
@@ -2333,13 +2332,13 @@ html, body {
 }
 
  .img-cps.move-down {
-    margin-top: 150px;
+    margin-top: 190px;
     margin-left: -46%; /* на сколько двигаем вниз */
   }
 
 .swiper-container {
   display: flex;
-  margin-top: 45%;
+  margin-top: 85%;
   margin-left: -1%;
   width: 84%;
   max-width: 320px;
@@ -2415,7 +2414,7 @@ html, body {
   left: 0;
   margin-top: -29%;
   width: 100%;
-  margin-left: -5%;
+  margin-left: -55%;
   text-align: center;
   display: flex;
   flex-direction: row !important; /* на случай flex */
@@ -2461,7 +2460,7 @@ html, body {
   font-size: 18px;
   color: grey;
   margin-top: 1px;
-  margin-left: -100px;
+  margin-left: -208px;
   padding: 15px 50%;
 }
 
@@ -2532,6 +2531,11 @@ html, body {
   margin-top: 6%;
 }
 
+.politika {
+  margin-top: 10%;
+  margin-left: -6%;
+}
+
 .informatia {
   display: none;
   width: 70%;
@@ -2541,13 +2545,13 @@ html, body {
 
 .politika {
   font-size: 16px;
-  margin-left: 30%;
-  margin-top: 4%;
+  margin-left: 22%;
+  margin-top: 5%;
 }
 
 .Apesong {
   margin-top: 1%;
-  margin-left: 30%;
+  margin-left: 21%;
 }
 
 .oferto {
@@ -2558,16 +2562,16 @@ html, body {
   display: flex;
   color: gray;
   font-size: 17px;
-  margin-top: 1%;
-  margin-left: 24%;
+  margin-top: -1%;
+  margin-left: 9%;
 }
 
 .informatia-1 {
   display: flex;
   color: gray;
   font-size: 16px;
-  margin-top: 2%;
-  margin-left: 28%;
+  margin-top: 5%;
+  margin-left: 17%;
 }
 
 .liniya-4 {

@@ -1,122 +1,82 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: 'TT Lakes', sans-serif;
-    line-height: 1.5;
-  }
+body {
+  font-family: 'TT Lakes', sans-serif;
+  line-height: 1.5;
+}
 
-  .layout {
-    display: flex;
-  }
+.layout {
+  display: flex;
+}
 
-  .sidebar {
-    background-color:white;
-    padding: 20px;
-    width: 320px;
-    flex-shrink: 0;
-  }
-
-  .swiper-paginationiio {
-    display: none;
-  }
-
-  h1 {
-    margin-left: 40px;
-  }
-
-  .swiper-conta {
-    display: none;
-  }
-
-  .main-content {
-    background-color: #F8F8F8;
-    flex: 1;
-    padding: 20px;
-    min-height: 250vh;
-  }
-
- .table-row {
-  margin-left: 900px;
- }
-
-  .container-table {
+.sidebar {
   background-color: white;
-  border-radius: 10px;
-  padding: 20px 940%;
-  margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1700px;
-  margin-left: 20%;
-  font-family: Arial, sans-serif;
+  width: 320px;
+  flex-shrink: 0;
 }
 
-.container-tabless {
-  background-color: blue;
-  border-radius: 10px;
-  padding: 19px;
-  margin-top: 10%;
-  margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 100px;
-  max-height: 100px;
-  margin-left:18%;
-  font-family: Arial, sans-serif;
+.swiper-paginationiio,
+.swiper-conta,
+header,
+.header-left3,
+.header-bv,
+.swiper-containerse,
+.swiper-container,
+.oferto-1,
+.informatia-1,
+.hjk,
+.side-menu {
+  display: none;
 }
 
-.container-tables1 {
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  max-width: 66px;
-  margin-left: 19%;
-  height: 80px;
+h1 {
+  /* margin removed */
 }
 
-.container-tables2 {
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  max-width: 66px;
-  margin-left: 19%;
-  margin-top: 2%;
-  height: 80px;
-  padding: 1.91px;
+.main-content {
+  background-color: #F8F8F8;
+  flex: 1;
+  min-height: 250vh;
 }
 
-.container-tables3 {
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  max-width: 66px;
-  margin-left: 19%;
-  margin-top: 2%;
-  height: 80px;
-  padding: 1.91px;
+.yslugis {
+  
 }
 
+.table-row {}
+
+.container-table,
+.container-tabless,
+.container-tables1,
+.container-tables2,
+.container-tables3,
 .container-tables4 {
   background-color: white;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.container-tabless {
+  background-color: blue;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.container-tables1,
+.container-tables2,
+.container-tables3,
+.container-tables4 {
   max-width: 66px;
-  margin-left: 19%;
-  margin-top: 2%;
   height: 80px;
-  padding: 1.91px;
 }
 
 .containern {
@@ -124,291 +84,128 @@
   background: lightblue;
 }
 
-.tyi-icon {
-   display: flex;
-   margin-left: -20px;
-   margin-top: -30px;
+.tyi-icon,
+.menu,
+.logo,
+.side-bar-group,
+.icons,
+.mail,
+.phone,
+.languages,
+.search-icon,
+.services__tab--active,
+.read-more-btn,
+.main-text,
+.main-text2,
+.repair-icon,
+.checkstatus-icon,
+.otzivi,
+.services_text,
+.service-text,
+.more-text,
+.liniya-1,
+.liniya-2,
+.brand-grid,
+#brand-list,
+.brand-card,
+#toggle-text,
+#toggle-button,
+.arrow-button,
+.remont-texniki,
+.collapsed,
+.repair-options,
+.card,
+.knopka-card,
+.remont-card,
+.pk-card,
+.show-all,
+.thrt-card,
+.liniya-3,
+.scena-yslugi,
+.remont-yslugi,
+.scena,
+.srok,
+.note,
+.liniya-4,
+.proposal,
+.knopka-note,
+.cps-number,
+.Apesong,
+.tyi-main,
+.price-table-strelka1,
+.politika,
+.informatia,
+.oferto,
+.containerrsee,
+.price-table,
+.remontnie-yslugis,
+.scena-yslugis,
+.srok-yslugis,
+.price-table-row,
+.order-btn,
+.zakazat-price {
+  /* All margin & padding removed */
 }
 
-.menu {
-  margin-left: 1px;
-  margin-top: 20px;
-  font-size: 18px;
+ul {
+  list-style: none;
 }
 
-.logo {
-  position: absolute;
-  margin-top: 10px;
+li a {
+  text-decoration: none;
+  color: #333;
 }
 
-.side-bar-group {
-  margin-left: 10px;
-}
-
-.icons {
-  position: absolute;
-  margin-left: -50px;
-  margin-top: 400px;
-}
-
-.mail {
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 1px;
-}
-
-.phone {
-  position: absolute;
-  margin-top: 300px;
-  font-weight: bold;
-  font-size: 25px;
-  margin-left: 1px;
-}
-
-.languages {
-  margin-top: 370px;
-  margin-left: 1px;
-}
-
-.footer-RU {
-  color: gray;
-}
-
-.search-icon {
-  margin-left: 240px;
-  margin-top: 20px;
-}
-
-.Yslugi {
-   color: gray;
-   margin-top: 1px;
-   font-size: 17px;
-  }
-
-.container-table span {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
+.order-btn,
 .order-btn0 {
-  background-color: #007bff;
+  background-color: #ff2d87;
   border: none;
-  border-radius: 6px;
   color: white;
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.order-btn0:hover {
-  background-color: #0056b3;
-}
-
-.swiper-zakazat {
-  margin: 0;
-  font-size: 14px;
+  border-radius: 30px;
   font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-  .main-text {
-   display: flex;
-   justify-content: center;
-   margin-left: 42%;
-   margin-top: -40px;
-  }
-
-  .main-text2 {
-   display: flex;
-   justify-content:center;
-   margin-left: 82%;
-   margin-top: -36px;
-  }
-
-  .repair-icon {
-    display: flex;
-    justify-content:center ;
-    margin-left: 78%;
-    margin-top: -40px;
-  }
-
-  .checkstatus-icon {
-    display: flex;
-    justify-content: center;
-    margin-left: 98%;
-    margin-top: -42px;
-  }
-
-  .services__tab {
-    background: #F8F8F8;
-    border: none;
-    font-size: 19px;
-    display: flex;
-    white-space: nowrap;
-    margin-top: 35px;
-  }
-
-  .remont-brendov {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    font-size: 18px;
-    color: grey;
-    margin-top: 2px;
-    margin-left: -19px;
-    padding: 20px 30px;
-  }
-
-  .otzivi {
-    position: absolute;
-    margin-top: -5px;
-    margin-left: 80px;
-  }
-
-   .services_nav {
-    display: flex;
-    justify-content: space-between;
-  }
+.order-btn:hover,
+.order-btn0:hover {
+  background-color: #e02675;
+}
 
 .img-cps {
-  flex-shrink: 0; 
-  width: 500px; 
-  transform: translateY(20px);
-  display: flex;
-  
+  flex-shrink: 0;
+  width: 300px;
 }
 
 .services-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* чтобы картинка не двигалась при изменении высоты текста */
+  align-items: flex-start;
   gap: 20px;
 }
 
 .img-cps img {
-  width: 200%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 .more-text {
   display: none;
 }
 
-
-  .services__tab--active {
-    background-color: #fff;
-    border: 1px solid #00cc99;
-    padding: 1px 25px;
-    border-radius: 5px;
-    margin-left: 40px;
-  }
-
-  .read-more-btn {
-    display: flex;
-    margin-left: 30px;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-
-  .thrt-icon {
-    object-fit: contain;
-    width: 30px;
-    height: 25px;
-  }
-
-  h1, h2, h3 {
-    margin-bottom: 10px;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  li a {
-    text-decoration: none;
-    color: #333;
-  }
-
-  .services_text {
-   flex: 1;
-  }
-
-  .service-text {
-   font-size: 18px;
-   width: 610px;
-   margin-left: 40px;
-   margin-top: 40px;
-  }
-
-  .more-text {
-    font-size: 18px;
-    width: 620px;
-    margin-left: 40px;
-    margin-top: 20px;
-  }
-
-  .liniya-1 {
-    margin-top:7%;
-    border-top: 2px solid #E0FFFF;
-    width: 102%;
-    margin-left: -1%;
-  }
-
-  .liniya-2 {
-    margin-top: 58px;
-    border-top: 2px solid #E0FFFF;
-    width: 102%;
-    margin-left: -1%;
-  }
-
-.brand-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 30px;
-  gap: 20px;
-}
-
-#brand-list {
-  display: none;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 25px;
-  gap: 20px;
-}
-
-.brand-card {
-  background: white;
-  border: 1px solid #eee;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#toggle-text {
-  font-size: 16px;
-  position: absolute;
-  margin-left: 5px;
-  margin-top: 6px;
-}
-
-#toggle-button {
-  background-color: #f8f8f8;
+.services__tab {
+  background: #F8F8F8;
   border: none;
-  color: black;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-top: 20px;
-  margin-left: 10px;
+  font-size: 19px;
+  display: flex;
+  white-space: nowrap;
 }
 
 .arrow-button {
-  background-color: #fff;
-  border: 2px solid #f06ca3;
-  border-radius: 50%;
   font-size: 21px;
   width: 33px;
   height: 30px;
-  color: #f06ca3;
   text-align: center;
   line-height: 23px;
   font-weight: bold;
@@ -420,52 +217,10 @@
   color: #fff;
 }
 
-.remont-texniki {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  font-size: 18px;
-  color: grey;
-  margin-top: 2px;
-  margin-left: -19px;
-  padding: 20px 30px;
-}
-
-.collapsed {
-  display: none;
-}
-
-.repair-options {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px; /* расстояние между карточками */
-  justify-content: space-between;
-  padding: 20px 2px;
-  margin-top: 10px;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #ddd;
-  flex: 1;
-  font-weight: 500;
-  cursor: pointer;
-}
-
 .knopka-card {
-  color: #ff2b8a;
-  margin-left: 85%;
-  margin-top: 37%;
-  font-size: 20px;
-  background-color: #fff;
-  border: 2px solid #f06ca3;
-  border-radius: 50%;
   font-size: 21px;
   width: 40px;
   height: 32px;
-  color: #f06ca3;
   text-align: center;
   line-height: 26px;
   font-weight: bold;
@@ -473,257 +228,8 @@
 }
 
 .knopka-card:hover {
-   background-color: #ff2b8a;
-   color: #fff;
-}
-
-.remont-card {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.pk-card {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.show-all {
-  position: absolute;
-  font-size: 17px;
-  background: none;
-  border: none;
-  color: black;
-  cursor: pointer;
-  margin-left: 35px;
-  margin-top: 10px;
-}
-
-.thrt-card {
-  margin-left: 1px;
-  margin-top: 6px;
-}
-
-.liniya-3 {
-  margin: 0;
-  border-top: 2px solid #E0FFFF;
-  width: 102%;
-  margin-top: 90px;
-  margin-left: -1%;
-}
-
-.scena-yslugi {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  font-size: 18px;
-  color: grey;
-  margin-top: 2px;
-  margin-left: -19px;
-  padding: 20px 30px;
-}
-
-.remont-yslugi {
-  margin-left: 400px;
-  margin-top: 50px;
-}
-
-.scena {
-  margin-left: 900px;
-  margin-top: -28px;
-}
-
-.srok {
-  margin-left: 1350px;
-  margin-top: -28px;
-}
-
-.note {
-  margin-left: 40px;
-  margin-top: 40px;
-  width: 480px;
-}
-
-.liniya-4 {
-  margin-top: 140px;
-  border-top: 2px solid #E0FFFF;
-  width: 102%;
-  margin-left: -1%;
-}
-
-.proposal {
-  position: absolute;
-  margin-left: 40px;
-  margin-top: 20px;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.knopka-note {
-  color:#e02475;
-  font-size: 20px;
-  position: absolute;
-  margin-left: 360px;
-  margin-top: 15px;
-}
-
-.order-btn:hover {
-  color: white;
-  background: #e02475;
-}
-
-.header-left3 {
-  display: none;
-}
-
-.header-bv {
-  display: none;
-}
-
-.swiper-containerse {
-  display: none;
-}
-
-.swiper-container {
-  display: none;
-}
-
-header {
-  display: none;
-}
-
-.cps-number {
-  color: gray;
-  margin-left: 3%;
-  margin-top: 3%;
-}
-
-.Apesong {
-  color: gray;
-  margin-left: 3%;
-  margin-top: -1px;
-}
-
-.tyi-main {
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 5px;
-  height: 40px;
-}
-
-.price-table-strelka1 {
-  margin-left: 216%;
-  color: white;
-  font-size: 22px;
-  margin-top: -38px;
-}
-
-.politika {
-  color: gray;
-  margin-left: 35%;
-  margin-top: -50px;
-}
-
-.informatia {
-  color: gray;
-  width: 30%;
-  margin-left: 77%;
-  margin-top: -25px;
-}
-
-.oferto {
-  color: gray;
-  width: 30%;
-  margin-left: 84%;
-}
-
-.oferto-1 {
-  display: none;
-}
-
-.informatia-1 {
-  display: none;
-}
-
-.containerrsee {
-  background-color: black;
-}
-
-.price-table {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 12px;
-  padding: 10px;
-  width: 99%;
-  height: 450px;
-  margin-top: 25px;
-  margin-left: 4px;;
-}
-
-.remontnie-yslugis {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-left: 40px;
-  color: gray;
-}
-
-.scena-yslugis {
-  display: flex;
-  justify-content: center;
-  margin-top: -20px;
-  margin-left: -90px;
-  color: gray;
-}
-
-.srok-yslugis {
-  display: flex;
-  justify-content:space-around;
-  margin-left: 43%;
-  margin-top: -20px;
-  color: gray;
-}
-
-.price-table-row {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr auto;
-  padding: 25px 20px;
-  border-bottom: 1px solid #eee;
-}
-
-
-.price-table-row:last-child {
-  border-bottom: none;
-}
-.order-btn {
-  background-color: #ff2d87;
-  border: none;
-  color: white;
-  padding: 12px 40px;
-  border-radius: 30px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.zakazat-price {
-  margin-left: -20px;
-}
-.order-btn:hover {
-  background-color: #e02675;
-}
-
-.hjk {
-  display: none;
-}
-
-.side-menu {
-  display: none;
+  background-color: #ff2b8a;
+  color: #fff;
 }
 
 @font-face {
@@ -738,7 +244,7 @@ header {
 }
 
   /* Адаптация под мобильные */
-@media (min-width: 430px) and (max-width: 768px) {
+@media (max-width: 430px) {
   .layout {
   flex-direction: column;
 }
@@ -1326,7 +832,7 @@ html, body {
 .service-text {
   margin-top: 10%;
   margin-left: -2%;
-  width: 240%;
+  width: 115%;
 }
 
 .header-bv {
@@ -1350,17 +856,13 @@ html, body {
 }
 
 .img-cps {
-  width:55%;
-}
-
-.img-cps img {
-  margin-top: 90%;
-  margin-left: -94%;
+  margin-top: 59%;
+  width: 55%;
+  margin-left: -44%;
 }
 
  .img-cps.move-down {
-    margin-top: 150px;
-    margin-left: -46%; /* на сколько двигаем вниз */
+    margin-top: 450px; /* на сколько двигаем вниз */
   }
 
 .swiper-container {
@@ -1711,17 +1213,13 @@ html, body {
 }
 }
 
-@media (min-width: 768px) and (max-width: 768px) {
+@media (max-width: 320px) {
    .layout {
   flex-direction: column;
 }
 
 .sidebar {
   display: none;
-}
-
-.main-text, .main-text2, .repair-icon, .checkstatus-icon {
-  display:none;
 }
 
 .price-table {
@@ -1780,14 +1278,14 @@ html, body {
   font-size: 28px;
   position: absolute;
   top: 25px;
-  right: 250px;
+  right: 190px;
 }
 
 .close-btn2{
   position: absolute;
   background: none;
   border: none;
-  margin-left: 78%;
+  margin-left: 72%;
   margin-top: 6px;
 }
 
@@ -1910,8 +1408,8 @@ html, body {
 }
 
 .knopka-note {
-  margin-left: 48%;
-  margin-top: 17px;
+  margin-left: 45%;
+  margin-top: 21%;
 }
   
 .header-left,
@@ -1932,9 +1430,9 @@ html, body {
 
 .swiper-conta {
   display: flex;
-  margin-top: 48%;
-  margin-left: 1%;
-  width: 330px;
+  margin-top: 110%;
+  margin-left: -4%;
+  width: 310px;
   height: 290px;
 }
 
@@ -1944,8 +1442,8 @@ html, body {
 
 .swiper-paginationiio {
   display: flex;
-  margin-left:43%;
-  margin-top: -25%;
+  margin-left:40%;
+  margin-top: -70%;
 }
 
 .burger-img {
@@ -2035,8 +1533,8 @@ html, body {
   font-size: 20px;
   position: absolute;
   color: white;
-  margin-left:80%;
-  margin-top: 154px;
+  margin-left:84%;
+  margin-top: 47%;
 }
 
 .swiper-zakazat-2 {
@@ -2048,7 +1546,7 @@ html, body {
   font-size: 20px;
   position: absolute;
   color: white;
-  margin-left:80%;
+  margin-left:84%;
   margin-top: 154px;
 }
 
@@ -2148,7 +1646,7 @@ html, body {
   padding: 10px 36px;
   border-radius: 999px;
   font-weight: bold;
-  margin-left: 10%;
+  margin-left: 6%;
   cursor: pointer;
 }
 
@@ -2159,7 +1657,7 @@ html, body {
 .swiper-strelka {
   font-size: 20px;
   position: absolute;
-  margin-left: 80%;
+  margin-left: 85%;
   margin-top: 164px;
   color: white;
 }
@@ -2171,7 +1669,7 @@ html, body {
 .burger-divider {
   position: absolute;
   margin-top: 17px;
-  margin-left: 200px;
+  margin-left: 180px;
 }
 
 .header-bv {
@@ -2182,14 +1680,14 @@ html, body {
 
 .liniya-1 {
   width: 200%;
-  margin-top: 8%;
+  margin-top: 78%;
   margin-left: -20%;
 }
 
 .liniya-2 {
   width: 200%;
   margin-left: -20%;
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 .header-bv-repair {
@@ -2202,15 +1700,15 @@ html, body {
 
 .swiper-containerse {
   display: flex;
-  width: 50%;
+  width: 80%;
   height: 200px;
-  margin-top: 50%;
+  margin-top: 85%;
   margin-left: 1%;
 }
 
 .swiper-knopka {
   width: 35px;
-  margin-left: 10%;
+  margin-left: -1%;
   margin-top: 40%;
   height: 32px;
   color: #ff2b8a;
@@ -2233,6 +1731,7 @@ html, body {
   white-space: nowrap;
   font-size: 16px;
   margin-left: 1%;
+  width: 40px;
   margin-top: -40%;
 }
 
@@ -2240,6 +1739,7 @@ html, body {
   margin-left: 1%;
   margin-top: -40%;
   font-size: 16px;
+  width: 40px;
   white-space: nowrap;
 }
 
@@ -2255,18 +1755,19 @@ html, body {
   margin-top: -40%;
   font-size: 16px;
   white-space: nowrap;
+  width: 40px;
 }
 
 .liniya-3 {
   width: 200%;
   margin-left: -20%;
-  margin-top: -20%;
+  margin-top: -40%;
 }
 
 .swiper-paginationser {
   display: flex;
-  margin-bottom: 20%;
-  margin-left: -10%;
+  margin-top: 28%;
+  margin-left: -45%;
 }
 
 .header-bv-checkstatus {
@@ -2282,7 +1783,6 @@ html, body {
 
 .services_nav {
   margin-left: -35px;
-  margin-top: 20px;
 }
 
 .otzivi {
@@ -2298,13 +1798,11 @@ html, body {
 
 .service-text {
   margin-top: 10%;
-  margin-left: -2%;
-  width: 240%;
 }
 
 .header-bv {
   display: flex;
-  margin-left: 80%;
+  margin-left: 61%;
 }
 
 .header-bv-repair {
@@ -2324,22 +1822,19 @@ html, body {
 }
 
 .img-cps {
-  width:55%;
-}
-
-.img-cps img {
-  margin-top: 50%;
-  margin-left: -94%;
+  position: absolute;
+  margin-top: 80%;
+  width: 50%;
+  margin-left: 43%;
 }
 
  .img-cps.move-down {
-    margin-top: 150px;
-    margin-left: -46%; /* на сколько двигаем вниз */
+    margin-top: 530px; /* на сколько двигаем вниз */
   }
 
 .swiper-container {
   display: flex;
-  margin-top: 45%;
+  margin-top: 85%;
   margin-left: -1%;
   width: 84%;
   max-width: 320px;
@@ -2413,9 +1908,9 @@ html, body {
   position: relative;
   bottom: 10px;
   left: 0;
-  margin-top: -29%;
+  margin-top: -21%;
   width: 100%;
-  margin-left: -5%;
+  margin-left: -55%;
   text-align: center;
   display: flex;
   flex-direction: row !important; /* на случай flex */
@@ -2428,13 +1923,13 @@ html, body {
   font-size: 18px;
   color: grey;
   margin-top: 2px;
-  margin-left: -208px;
-  padding: 15px 50%;
+  margin-left: -160px;
+  padding: 4px 50%;
 }
 
 .more-text {
   font-size: 17px;
-  width: 350px;
+  width: 100%;
   margin-left: -1px;
   margin-top: 20px;
 }
@@ -2450,8 +1945,8 @@ html, body {
   font-size: 18px;
   color: grey;
   margin-top: 1px;
-  margin-left: -208px;
-  padding: 15px 50%;
+  margin-left: -160px;
+  padding: 4px 50%;
 }
 
 .scena-yslugi {
@@ -2461,7 +1956,7 @@ html, body {
   font-size: 18px;
   color: grey;
   margin-top: 1px;
-  margin-left: -100px;
+  margin-left: -160px;
   padding: 15px 50%;
 }
 
@@ -2518,8 +2013,8 @@ html, body {
   position: absolute;
   font-size: 20px;
   color: white;
-  margin-left: 82%;
-  margin-top: 49%;
+  margin-left: 84%;
+  margin-top: 52%;
 }
 
 .swiper-zakazat-3{
@@ -2528,26 +2023,36 @@ html, body {
 }
 
 .cps-number {
-  margin-left: 40%;
+  font-size: 14px;
+  margin-left: 36%;
   margin-top: 6%;
 }
 
+.politika {
+  font-size: 14px;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
 .informatia {
+  font-size: 14px;
   display: none;
   width: 70%;
   margin-top: 5%;
-  margin-left: 12%;
+  margin-left: 5%;
 }
 
 .politika {
   font-size: 16px;
-  margin-left: 30%;
-  margin-top: 4%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .Apesong {
+  font-size: 14px;
+  width: 90%;
   margin-top: 1%;
-  margin-left: 30%;
+  margin-left: 14%;
 }
 
 .oferto {
@@ -2557,23 +2062,25 @@ html, body {
 .oferto-1 {
   display: flex;
   color: gray;
-  font-size: 17px;
-  margin-top: 1%;
-  margin-left: 24%;
+  font-size: 14px;
+  margin-top: -1%;
+  width: 90%;
+  margin-left: 9%;
 }
 
 .informatia-1 {
   display: flex;
   color: gray;
-  font-size: 16px;
-  margin-top: 2%;
-  margin-left: 28%;
+  width: 90%;
+  font-size: 14px;
+  margin-top: 5%;
+  margin-left: 9%;
 }
 
 .liniya-4 {
   width: 200%;
   margin-left: -20%;
-  margin-top: 35%;
+  margin-top: 40%;
 }
 
 .swiper-conta-yslugi-4 {
@@ -2623,8 +2130,8 @@ html, body {
   position: absolute;
   font-size: 20px;
   color: white;
-  margin-top: 48%;
-  margin-left: 81%;
+  margin-top: 47%;
+  margin-left: 84%;
 }
 
 .swiper-zakazat-4 {
