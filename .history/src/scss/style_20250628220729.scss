@@ -3463,10 +3463,6 @@ html, body {
   margin-top: -4%;
 }
 
-.knopka-note {
-  margin-left: 57%;
-}
-
 .swiper-conta-number-scena-3 {
   position: absolute;
   margin-top: 15%;
@@ -4623,7 +4619,7 @@ html, body {
 }
 }
 
-@media (min-width: 337px) and (max-width: 400px) {
+@media (min-width: 337px) and (max-width: 399px) {
    .layout {
   flex-direction: column;
 }
@@ -4688,7 +4684,7 @@ html, body {
   font-size: 28px;
   position: absolute;
   top: 25px;
-  right: 205px;
+  right: 190px;
 }
 
 .close-btn2{
@@ -5593,8 +5589,7 @@ html, body {
 }
 
 .knopka-note {
-  margin-top: 13%;
-  margin-left: 42%;
+  margin-top: 10%;
 }
 
 @font-face {
