@@ -2901,7 +2901,7 @@ html, body {
 
 .swiper-conta {
   display: flex;
-  margin-top: 58%;
+  margin-top: 48%;
   margin-left: 1%;
   width: 330px;
   height: 290px;
@@ -2913,8 +2913,8 @@ html, body {
 
 .swiper-paginationiio {
   display: flex;
-  margin-left:48%;
-  margin-top: -32%;
+  margin-left:43%;
+  margin-top: -25%;
 }
 
 .burger-img {
@@ -3233,15 +3233,9 @@ html, body {
 }
 
 .swiper-paginationser {
-  position: relative;
-  bottom: 10px;
-  left: 0;
-  margin-top: 19%;
-  width: 100%;
-  margin-left: -8%;
-  text-align: center;
   display: flex;
-  flex-direction: row !important; 
+  margin-bottom: 20%;
+  margin-left: -10%;
 }
 
 .header-bv-checkstatus {
@@ -3279,7 +3273,7 @@ html, body {
 
 .header-bv {
   display: flex;
-  margin-left: 78%;
+  margin-left: 80%;
 }
 
 .header-bv-repair {
@@ -3303,7 +3297,7 @@ html, body {
 }
 
 .img-cps img {
-  margin-top: 60%;
+  margin-top: 50%;
   margin-left: -94%;
 }
 
@@ -3314,7 +3308,7 @@ html, body {
 
 .swiper-container {
   display: flex;
-  margin-top: 55%;
+  margin-top: 45%;
   margin-left: -1%;
   width: 84%;
   max-width: 320px;
@@ -3390,7 +3384,7 @@ html, body {
   left: 0;
   margin-top: -29%;
   width: 100%;
-  margin-left: -25%;
+  margin-left: -5%;
   text-align: center;
   display: flex;
   flex-direction: row !important; /* на случай flex */
@@ -3470,7 +3464,7 @@ html, body {
 }
 
 .knopka-note {
-  margin-left: 59%;
+  margin-left: 57%;
 }
 
 .swiper-conta-number-scena-3 {
@@ -3511,17 +3505,22 @@ html, body {
   margin-top: 6%;
 }
 
-
+.informatia {
+  display: none;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 12%;
+}
 
 .politika {
-  font-size: 15px;
-  margin-left: 28%;
+  font-size: 16px;
+  margin-left: 30%;
   margin-top: 4%;
 }
 
 .Apesong {
   margin-top: 1%;
-  margin-left: 26%;
+  margin-left: 30%;
 }
 
 .oferto {
@@ -3533,7 +3532,7 @@ html, body {
   color: gray;
   font-size: 17px;
   margin-top: 1%;
-  margin-left: 18%;
+  margin-left: 24%;
 }
 
 .informatia-1 {
@@ -3541,7 +3540,7 @@ html, body {
   color: gray;
   font-size: 16px;
   margin-top: 2%;
-  margin-left: 23%;
+  margin-left: 28%;
 }
 
 .liniya-4 {
@@ -6586,7 +6585,7 @@ html, body {
 @media (min-width: 340px) and (max-width: 399px) {
   .img-cps  {
     width: 100%;
-    margin-top: 70%;
+    margin-top: 65%;
   }
 }
 
@@ -6631,12 +6630,6 @@ html, body {
  .service-text {
   width: 100%;
  }
-}
-
-@media (min-width: 368px) and (max-width: 399px) {
-  .img-cps {
-    margin-top: 60%;
-  }
 }
 
 @media (min-width: 401px) and (max-width: 429px) {

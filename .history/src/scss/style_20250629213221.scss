@@ -1,0 +1,97 @@
+body {
+  font-family: 'TT Lakes', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Обёртка */
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Боковая панель */
+.sidebar {
+  width: 320px;
+  background-color: #fff;
+  flex-shrink: 0;
+}
+
+/* Основной контент */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Адаптация под планшет (до 1024px) */
+@media (max-width: 1024px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    display: none; /* можно показывать при клике на бургер */
+  }
+
+  .header-left3,
+  .header-bv {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .brand-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+}
+
+/* Мобильные (до 768px) */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .brand-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .swiper-container,
+  .swiper-containerse,
+  .swiper-conta {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .services_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .header-bv {
+    display: none;
+  }
+
+  .main-text,
+  .main-text2,
+  .repair-icon,
+  .checkstatus-icon {
+    display: none;
+  }
+
+  .img-cps img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+

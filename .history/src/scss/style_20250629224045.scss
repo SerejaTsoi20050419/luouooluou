@@ -3279,7 +3279,7 @@ html, body {
 
 .header-bv {
   display: flex;
-  margin-left: 78%;
+  margin-left: 80%;
 }
 
 .header-bv-repair {
@@ -3511,11 +3511,16 @@ html, body {
   margin-top: 6%;
 }
 
-
+.informatia {
+  display: none;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 12%;
+}
 
 .politika {
-  font-size: 15px;
-  margin-left: 28%;
+  font-size: 16px;
+  margin-left: 26%;
   margin-top: 4%;
 }
 
@@ -3533,7 +3538,7 @@ html, body {
   color: gray;
   font-size: 17px;
   margin-top: 1%;
-  margin-left: 18%;
+  margin-left: 24%;
 }
 
 .informatia-1 {
@@ -3541,7 +3546,7 @@ html, body {
   color: gray;
   font-size: 16px;
   margin-top: 2%;
-  margin-left: 23%;
+  margin-left: 28%;
 }
 
 .liniya-4 {
